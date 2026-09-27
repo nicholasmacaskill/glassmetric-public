@@ -1,4 +1,4 @@
-Glass Metric / The Glass Metric / Glass Metric OS
+GlassMetric / The Glass Metric / Glass Metric OS
 
 **Unified analytics dashboard for financial trading, sports betting, digital marketing, and bio-performance.**
 
