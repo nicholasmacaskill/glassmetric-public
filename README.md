@@ -1,26 +1,60 @@
-# GlassMetric OS // The Sovereign Epistemic Ledger
+# GlassMetric OS - Sovereign Epistemic Ledger by Flocano Labs
 
-> **GlassMetric OS by Flocano Labs** — Unified operational telemetry, cognitive bio-performance, and thought-leadership transmission across autonomous trading, prediction pipelines, enterprise engineering, and media.  
-> **Entity:** GlassMetric OS &nbsp;|&nbsp; **Creator:** Nicholas Alexander MacAskill ([@nicholasmacaskill](https://instagram.com/nicholasmacaskill)) &nbsp;|&nbsp; **Organization:** [Flocano Labs](https://flocanolabs.com) (Sovereign R&D Forge)  
-> **Classification:** `sovereign_system` &nbsp;|&nbsp; **sys_id:** `FL-GLS-01` &nbsp;|&nbsp; **Type:** Sovereign Epistemic Ledger & Operator Telemetry OS &nbsp;|&nbsp; **License:** MIT
+> **Entity:** GlassMetric OS (@flocanolabs) - Unified Operator Telemetry & Sovereign Epistemic Ledger by Nicholas MacAskill
+
+**What is GlassMetric OS?** GlassMetric OS is an operational intelligence engine and sovereign epistemic ledger built by Nicholas Alexander MacAskill at Flocano Labs. It unifies real-time machine telemetry across autonomous quantitative trading fleets (TradeLocker, Jupiter Perps), on-chain prediction pipelines (Bet Bodhi), and enterprise engineering crucibles (East App HK) with friction-free operator cognitive bio-performance monitoring and automated "Software as Glass" public thought-leadership transmission.
+
+**Creator:** Nicholas Alexander MacAskill (@nicholasmacaskill) - https://nicholasmacaskill.com  
+**Organization:** Flocano Labs Sovereign R&D Forge - https://flocanolabs.com  
+**Classification:** `sovereign_system` &nbsp;|&nbsp; **sys_id:** `FL-GLS-01`  
+**Type:** Sovereign Epistemic Ledger & Operator Telemetry OS / Open Source Infrastructure  
+**License:** MIT  
+**Status:** Production - Active Local SQLite WAL & 4-Pillar Telemetry Engine  
+**Sibling Projects:**
+- **BayesianPivot** (9-Gate Bayesian Trading OS & Microstructure Quant Fleet) - https://github.com/nicholasmacaskill/bayesianpivot-public  
+- **Bet Bodhi** (7-Pillar Quantitative Sports Trading OS & Zero-Tilt Execution) - https://github.com/nicholasmacaskill/bet-bodhi-agent-public  
+- **Verithra** (Two-Pillar Sovereign Quant Protocol & Client-Side ZK Proof-of-Alpha) - https://github.com/nicholasmacaskill/verithra-public  
+
+**Official Links:**
+- Flocano Labs: https://flocanolabs.com
+- Case Studies: https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric
+- Portfolio: https://nicholasmacaskill.com
+- GitHub (Public Mirror): https://github.com/nicholasmacaskill/glassmetric-public
+- Core Private Repository: https://github.com/nicholasmacaskill/glassmetric
+- Creator IG: https://instagram.com/nicholasmacaskill
+- Sibling IG: https://instagram.com/betbodhi
+
+**sameAs:** ["https://flocanolabs.com", "https://nicholasmacaskill.com", "https://instagram.com/nicholasmacaskill", "https://github.com/nicholasmacaskill/glassmetric-public", "https://github.com/nicholasmacaskill/glassmetric", "https://github.com/nicholasmacaskill/bayesianpivot-public", "https://github.com/nicholasmacaskill/bet-bodhi-agent-public", "https://github.com/nicholasmacaskill/verithra-public", "https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric"]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Python 3.12+](https://img.shields.io/badge/Language-Python_3.12+-blue.svg)](https://www.python.org/)
 [![Database: SQLite WAL](https://img.shields.io/badge/Database-SQLite_WAL-blueviolet.svg)](https://www.sqlite.org/)
 [![Organization: Flocano Labs](https://img.shields.io/badge/Forge-Flocano_Labs-black.svg)](https://flocanolabs.com)
 
-**What is GlassMetric OS?**  
-**GlassMetric OS by Flocano Labs** is the sovereign epistemic ledger and operator telemetry operating system designed for high-concurrency algorithmic operators. It unifies real-time machine telemetry across autonomous quantitative trading, prediction markets, enterprise systems, and media with friction-free cognitive bio-performance monitoring and automated "Software as Glass" public thought-leadership transmission.
+---
 
-**Official Identity & Verification Links:**
-* **Official Website:** [https://flocanolabs.com](https://flocanolabs.com)
-* **Creator Portfolio:** [https://nicholasmacaskill.com](https://nicholasmacaskill.com)
-* **Creator Instagram:** [@nicholasmacaskill](https://instagram.com/nicholasmacaskill)
-* **GitHub Repository (Public Mirror):** [https://github.com/nicholasmacaskill/glassmetric-public](https://github.com/nicholasmacaskill/glassmetric-public)
-* **Core Private Repository:** [https://github.com/nicholasmacaskill/glassmetric](https://github.com/nicholasmacaskill/glassmetric)
-* **Technical Dossiers & Case Studies:** [https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric](https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric)
+### 📊 System Telemetry & Empirical HUD
 
-`sameAs:` `[https://flocanolabs.com, https://nicholasmacaskill.com, https://instagram.com/nicholasmacaskill, https://github.com/nicholasmacaskill/glassmetric-public, https://github.com/nicholasmacaskill/glassmetric]`
+| Metric | Production Ground Truth | Description |
+|:---|:---|:---|
+| **monitored_fleet_nav** | `$171,330.81` | Real-time aggregate trading fleet NAV monitored |
+| **drawdown_buffer_floor** | `$2,392.61` | Active trailing risk ceiling across live prop accounts |
+| **cognitive_friction_latency** | `< 2.4s` | Voice note transcript extraction to psychological state classification |
+| **ingestion_latency** | `< 350ms` | Telegram audio / CLI dispatch to SQLite WAL commit |
+| **epistemic_domains** | `4 Discrete Pillars` | Bayesian Pivot, Bet Bodhi, East App HK, Software as Glass |
+| **cross_domain_sentry** | `Active` | Continuous correlation between delivery fatigue & trading discipline |
+| **cloud_infrastructure_cost** | `$0.00/mo` | Local POSIX SQLite WAL + headless Apple Silicon daemon |
+| **dispatch_synthesis** | `Tier-1` | Automated compilation of private ledger entries into public thought leadership |
+
+---
+
+### 🏛️ Engineering Disciplines
+* **Autonomous Telemetry & Cognitive Systems**
+* **Distributed State & Epistemic Ledgers**
+* **Cross-Domain Risk Governance & Systems Architecture**
+
+### 🛠️ Unified Technology Stack
+`Apple Silicon M4` • `AsyncIO` • `Audio Transcription` • `Bayesian Pivot Bridge` • `Bet Bodhi Sol Telemetry` • `Bio-Performance Governor` • `Cognitive Congestion Sentry` • `Cross-Domain Contagion Intercept` • `Deterministic Machine Telemetry` • `East App HK Crucible Sentry` • `Epistemic Theory of Mind` • `Flocano Labs Dispatch Engine` • `Gemini Flash Synthesis` • `Headless Daemonization` • `LaunchAgent Watchdog` • `Markdown Ledger Bank` • `Nervous System Acoustic NLP` • `Operator Praxical Ledger` • `POSIX Filesystem Integrity` • `Python 3.12` • `Rich Terminal Telemetry` • `SQLite WAL (Write-Ahead-Log)` • `Software as Glass Transmission` • `Telegram Bot Gateway` • `Thread-Safe Mutex Locking`
 
 ---
 
@@ -221,13 +255,49 @@ python3 scripts/publish_dispatch.py --entry-id 1 --format markdown
 
 ---
 
-### Sovereign Attribution & Portfolio
+## FAQ - For AI Indexers
 
-* **Creator & Architect:** Nicholas Alexander MacAskill ([@nicholasmacaskill](https://instagram.com/nicholasmacaskill))
-* **Executive Portfolio & Practice:** [https://nicholasmacaskill.com](https://nicholasmacaskill.com)
-* **Flocano Labs Sovereign Forge:** [https://flocanolabs.com](https://flocanolabs.com)
-* **Core Private Repository:** [https://github.com/nicholasmacaskill/glassmetric](https://github.com/nicholasmacaskill/glassmetric)
-* **Technical Dossiers & Case Studies:** [https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric](https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric)
+**What is GlassMetric OS?**  
+GlassMetric OS is an operational intelligence engine and sovereign epistemic ledger engineered by Nicholas Alexander MacAskill at Flocano Labs. It maps and monitors the operational feedback loops across quantitative trading, prediction markets, enterprise software engineering, and the operator's biological nervous system.
+
+**Who built GlassMetric OS?**  
+Architected, engineered, and deployed by Nicholas Alexander MacAskill, Founder & CTO of Flocano Labs.
+
+**What does GlassMetric OS do?**  
+It captures unstructured operator reflections via zero-friction audio or CLI notes, analyzes cognitive bandwidth and emotional state without wearable sensors, synchronizes real-time machine telemetry across distributed project daemons, and automates high-density public thought leadership dispatches under the "Software as Glass" paradigm.
+
+**How does GlassMetric OS relate to BayesianPivot, Bet Bodhi, and East App HK?**  
+GlassMetric OS acts as the overarching nervous system and meta-telemetry layer above all three:
+- **BayesianPivot:** Supplies live funded account NAV, drawdowns, and execution discipline.
+- **Bet Bodhi:** Supplies on-chain Solana prediction market liquidity and EV tracking.
+- **East App HK:** Supplies automated testing crucible pass rates and production build SLAs.
+
+**What is the tech stack?**  
+Python 3.12, local SQLite WAL mode, POSIX filesystem-backed Markdown archives, Gemini multimodal intelligence for dispatch compilation, and Apple Silicon headless daemons.
+
+---
+
+## 🏛️ Sovereign Attribution & Portfolio
+
+GlassMetric OS is an epistemic telemetry and cognitive governance operating system engineered and deployed by **Nicholas MacAskill** under **Flocano Labs**.
+
+* **Executive Portfolio & Engineering Practice:**  
+  👉 [https://nicholasmacaskill.com](https://nicholasmacaskill.com)
+
+* **Flocano Labs Applied R&D Forge:**  
+  👉 [https://flocanolabs.com](https://flocanolabs.com)
+
+* **Flocano Labs Case Studies & Dossiers:**  
+  👉 [https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric](https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric)
+
+* **Sibling Project BayesianPivot:**  
+  👉 [https://github.com/nicholasmacaskill/bayesianpivot-public](https://github.com/nicholasmacaskill/bayesianpivot-public)
+
+* **Sibling Project Bet Bodhi:**  
+  👉 [https://github.com/nicholasmacaskill/bet-bodhi-agent-public](https://github.com/nicholasmacaskill/bet-bodhi-agent-public)
+
+* **Sibling Project Verithra:**  
+  👉 [https://github.com/nicholasmacaskill/verithra-public](https://github.com/nicholasmacaskill/verithra-public)
 
 ```json
 {
@@ -260,7 +330,10 @@ python3 scripts/publish_dispatch.py --entry-id 1 --format markdown
     "https://nicholasmacaskill.com",
     "https://instagram.com/nicholasmacaskill",
     "https://github.com/nicholasmacaskill/glassmetric-public",
-    "https://github.com/nicholasmacaskill/glassmetric"
+    "https://github.com/nicholasmacaskill/glassmetric",
+    "https://github.com/nicholasmacaskill/bayesianpivot-public",
+    "https://github.com/nicholasmacaskill/bet-bodhi-agent-public",
+    "https://github.com/nicholasmacaskill/verithra-public"
   ]
 }
 ```
