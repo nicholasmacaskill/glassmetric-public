@@ -1,224 +1,255 @@
-GlassMetric / The Glass Metric / Glass Metric OS
+# GlassMetric OS // The Sovereign Epistemic Ledger
 
-**Unified analytics dashboard for financial trading, sports betting, digital marketing, and bio-performance.**
+> **GlassMetric OS by Flocano Labs** — Unified operational telemetry, cognitive bio-performance, and thought-leadership transmission across autonomous trading, prediction pipelines, enterprise engineering, and media.  
+> **Entity:** GlassMetric OS &nbsp;|&nbsp; **Creator:** Nicholas Alexander MacAskill ([@nicholasmacaskill](https://instagram.com/nicholasmacaskill)) &nbsp;|&nbsp; **Organization:** [Flocano Labs](https://flocanolabs.com) (Sovereign R&D Forge)  
+> **Classification:** `sovereign_system` &nbsp;|&nbsp; **sys_id:** `FL-GLS-01` &nbsp;|&nbsp; **Type:** Sovereign Epistemic Ledger & Operator Telemetry OS &nbsp;|&nbsp; **License:** MIT
 
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Language: Python 3.12+](https://img.shields.io/badge/Language-Python_3.12+-blue.svg)](https://www.python.org/)
+[![Database: SQLite WAL](https://img.shields.io/badge/Database-SQLite_WAL-blueviolet.svg)](https://www.sqlite.org/)
+[![Organization: Flocano Labs](https://img.shields.io/badge/Forge-Flocano_Labs-black.svg)](https://flocanolabs.com)
 
-This project is a personal "System Monitor" for the high-performance internet entrepreneur. It aggregates data from the four pillars of the digital economy—**Trading, Betting, Creator Growth, and Bio-Data**—to map how outcomes in one discipline cascade into others.
+**Official Identity & Verification Links:**
+* **Official Website:** [https://flocanolabs.com](https://flocanolabs.com)
+* **Creator Portfolio:** [https://nicholasmacaskill.com](https://nicholasmacaskill.com)
+* **Creator Instagram:** [@nicholasmacaskill](https://instagram.com/nicholasmacaskill)
+* **GitHub Repository (Public Mirror):** [https://github.com/nicholasmacaskill/glassmetric-public](https://github.com/nicholasmacaskill/glassmetric-public)
+* **Core Private Repository:** [https://github.com/nicholasmacaskill/glassmetric](https://github.com/nicholasmacaskill/glassmetric)
+* **Technical Dossiers & Case Studies:** [https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric](https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric)
 
-* **Core Question:** "How do results in one domain map to outcomes in others? How do these feedback loops compound over time?"
-* **Goal:** "Vibe code" a functional prototype fast using standard web technologies + a hybrid mobile wrapper.
-
-## 📋 Table of Contents
-
-- [Architecture: The Hybrid Model](#architecture-the-hybrid-model)
-- [Tech Stack & Rationale](#tech-stack--rationale)
-- [Core Data Specs (The "Systemic" Dataset)](#core-data-specs-the-systemic-dataset)
-- [Data Connectors & Setup Guide](#data-connectors--setup-guide)
-  - [1. Financial (Prop Firms, Crypto, TradingView)](#1-financial-trading)
-  - [2. Sports Betting (Markets & History)](#2-sports-betting)
-  - [3. Marketing & Ecommerce (Output & Intent)](#3-marketing--ecommerce)
-  - [4. Health & Bio-Data (The Workaround)](#4-health--bio-data-the-workaround)
-- [Development Roadmap](#development-roadmap)
-- [Getting Started](#getting-started)
-
-## Architecture: The Hybrid Model
-
-We use a **Unified UI / Native Bridge** architecture. You write the dashboard interface once, and it serves both desktop and mobile experiences.
-
-1.  **The "HQ" (Desktop Web):** The primary command center. Optimized for deep work alongside trading terminals.
-2.  **The "Mule" (Mobile App):** A lightweight React Native shell. It displays the web dashboard for checking stats on the go, but its primary function is to run a **background service** that syncs offline Apple Health data to the cloud.
+`sameAs:` `[https://flocanolabs.com, https://nicholasmacaskill.com, https://instagram.com/nicholasmacaskill, https://github.com/nicholasmacaskill/glassmetric-public, https://github.com/nicholasmacaskill/glassmetric]`
 
 ---
 
-## Tech Stack & Rationale
+### The Paradigm Shift: From "Quantified Self" to Epistemic Architecture
 
-We selected this stack to maximize development speed ("vibe coding") while solving the hard problem of accessing local device sensors.
+The original 2023 concept of GlassMetric attempted to track bio-performance and marketing, but it pointed the lens in the wrong direction:
+* **The Old Bio View:** Obsessing over 10,000 steps, sleep trackers, and calorie counts.
+* **The Old Marketing View:** Tracking TikTok follower numbers, first-hour post velocity, and vanity social metrics.
 
-### 🖥️ Frontend (Web Dashboard)
-* **Next.js 14 (App Router):** Chosen for its robust server-side rendering and ease of deployment on Vercel. It allows us to build a fast, SEO-friendly dashboard.
-* **Tailwind CSS + shadcn/ui:** Provides a high-quality "Glossy Dark Mode" aesthetic out of the box with copy-paste components. No time wasted writing custom CSS.
-* **Tremor:** React chart library specifically built for financial dashboards. Looks professional immediately.
+Both failed because **high-leverage output is not a function of wearable toys or social vanity**. 
 
-### 🗄️ Backend (Infrastructure)
-* **Supabase:** The "Firebase for SQL." It gives us a PostgreSQL database, Authentication, and Realtime subscriptions instantly.
-* **Edge Functions (Deno):** Used to run the Cron jobs that poll external APIs (TradeLocker, TikTok) and process Webhooks.
-* **pgvector:** Built-in vector search support in Postgres, enabling the future "AI Assistant" to query our data using RAG (Retrieval-Augmented Generation).
+**GlassMetric OS (v2.0)** redefines both disciplines through the lens of **Software as Glass**:
+1. **Bio-Performance is the Operator's Cognitive Governor:** The human operator is the biological CPU running the autonomous machine fleets. The metrics that dictate real-world outcomes are **cognitive bandwidth, nervous system tone, and decision velocity under extreme multi-project concurrency**.
+2. **Marketing is the "Software as Glass" Transmission Engine:** Your private, immutable operator reflections are **Tier-1, bleeding-edge content**. By recording real-time engineering trade-offs, live prop fleet governance ($171k+ capital at risk), and mathematical edge, the Praxical Ledger becomes an automated pipeline for authentic thought leadership and public proof-of-work.
 
-### 📱 Mobile (The Bridge)
-* **React Native (Expo):** Allows us to build the iOS app using JavaScript/React. We avoid writing complex Swift code.
-* **react-native-health:** A pre-built bridge to Apple's HealthKit framework.
-* **expo-background-fetch:** Enables the app to wake up periodically (even when closed) to sync data.
-
----
-
-## Core Data Specs (The "Systemic" Dataset)
-
-The dashboard tracks **Inputs (State)** vs. **Outputs (Results)**. We distinguish between "Busyness" (Steps) and "Training" (Distance), and "Vanity" (Followers) vs. "Output" (Velocity).
-
-### 1. 🏥 Health & Bio-Data (The "State" Layer)
-* **Heart Rate Variability (HRV):** The primary "Stress/Readiness" detector. Low HRV = High likelihood of impulsive decisions.
-* **Resting Heart Rate (RHR):** Burnout indicator. Rising RHR signals need for recovery.
-* **Sleep Efficiency:** Time Asleep vs. Time in Bed (Quality > Quantity).
-* **Respiratory Rate:** Leading indicator for illness or hangovers.
-* **Mindful Minutes:** Meditation/Breathwork sessions.
-* **Activity Split:**
-    * **Steps:** General activity (often correlates with busy/anxious days).
-    * **Distance (Run/Walk/Cycle):** Intentional exercise (Flow state trigger).
-* **Time in Daylight:** Dopamine regulation metric (seasonality checks).
-
-### 2. 📈 Financial Trading (The "Discipline" Layer)
-* **P&L & Drawdown:** Daily net result and max negative excursion.
-* **Max Adverse Excursion (MAE):** How much pain did you endure? High Profit + High MAE = Luck/Recklessness.
-* **Number of Trades:** High frequency often signals "Tilt" or chasing losses.
-* **Avg. Holding Time:** Measures patience. (e.g., "Do I cut winners early when tired?").
-* **Win/Loss Ratio:** Accuracy vs. Profitability check.
-
-### 3. 🎲 Sports Betting (The "Edge" Layer)
-* **Closing Line Value (CLV):** Did you beat the market? (True Skill indicator).
-* **Turnover (Volume):** Total wagered. Spikes correlate with dopamine chasing.
-* **ROI %:** Pure efficiency metric.
-* **Average Odds Wagered:** Are you betting safe (1.20) or chasing longshots (5.00+)?
-* **Sport Breakdown:** Performance by category (e.g., "Stop betting on Table Tennis").
-
-### 4. 📱 Marketing & Ecommerce (The "Attention" Layer)
-* **Daily Content Volume:** The count of "units" shipped today across Threads/TikTok. Tracks high-frequency output vs. paralysis.
-* **First-Hour Velocity:** The engagement rate (likes/comments) in the *first 60 minutes* of a post. (Flow state signal).
-* **Social Energy (Replies):** Count of DMs/Comments you responded to. (Burnout signal).
-* **Cart Addition Rate:** The % of visitors who added to cart (Intent) vs just viewing.
-* **Post Consistency:** Daily streak (Discipline metric).
-
-### 5. 🏷️ Context (The "Ghost" Metric)
-* **Daily Tag:** A simple manual input field (1-10 Rating or Tag: *Sick, Hungover, Focused, Traveling*) to explain data anomalies.
+```
+                              ┌─────────────────────────────────────────────────────────┐
+                              │                    THE OPERATOR (BIO)                   │
+                              │    Cognitive Bandwidth • Executive Stamina • Tone       │
+                              └──────────────────────────┬──────────────────────────────┘
+                                                         │ Voice Reflection
+                                                         ▼
+                              ┌─────────────────────────────────────────────────────────┐
+                              │                 THE 4 SOVEREIGN PILLARS                 │
+                              └──────────────────────────┬──────────────────────────────┘
+                                                         │
+         ┌────────────────────────┬──────────────────────┴───────────────┬────────────────────────┐
+         ▼                        ▼                                      ▼                        ▼
+ 🏛️ BAYESIAN PIVOT          🪐 BET BODHI                           🏢 EAST APP HK           💎 SOFTWARE AS GLASS
+ Autonomous Quant Fleet   On-Chain Solana Prediction             Enterprise Architecture    Thought Leadership &
+ & Jupiter Perps Engine   Pipelines & Market Efficiency          & Testing Crucibles        Visual Backend Truth
+         │                        │                                      │                        │
+         └────────────────────────┼──────────────────────────────────────┴────────────────────────┘
+                                  ▼
+                   ┌──────────────────────────────┐
+                   │    THE PRAXICAL INGESTION    │
+                   │  Zero-Friction Audio Notes   │
+                   │  Telegram Gateway & Webhooks │
+                   └──────────────┬───────────────┘
+                                  ▼
+                   ┌──────────────────────────────┐
+                   │  EPISTEMIC SYNTHESIS ENGINE  │
+                   │  Cognitive Extraction & Sentry│
+                   │  Cross-Domain Friction Check │
+                   └──────────────┬───────────────┘
+                                  ▼
+                   ┌──────────────────────────────┐
+                   │  THE PRAXICAL MASTER LEDGER  │
+                   │  Git-Banked Markdown & WAL   │
+                   │  Cryptographic Truth Engine  │
+                   └──────────────┬───────────────┘
+                                  ▼
+                   ┌──────────────────────────────┐
+                   │     THE TRANSMISSION LAYER   │
+                   │  "Software as Glass" Essays  │
+                   │  Executive Dispatch & Media  │
+                   └──────────────────────────────┘
+```
 
 ---
 
-## Data Connectors & Setup Guide
+### The Four Pillars of the Ecosystem
 
-### 1. Financial Trading
-*Connects prop firms, crypto exchanges, and chart alerts.*
+GlassMetric monitors, cross-correlates, and harmonizes four discrete disciplines:
 
-#### **A. Prop Firms (TradeLocker)**
-* **Type:** REST API (Polled).
-* **Base URL:** `https://live.tradelocker.com/backend-api`
-1.  **Auth:** POST `/auth/jwt/token` with email/password/server to get Bearer Token.
-2.  **Context:** GET `/auth/jwt/all-accounts` to retrieve `accountId`.
-3.  **Sync:** Create a Supabase Edge Function (Cron: 1h) to poll `/trade/accounts/{id}/state` for Equity/Balance.
-
-#### **B. Crypto (Binance & Coinbase)**
-* **Binance:** Use `GET /api/v3/myTrades` (Spot) signed with HMAC SHA256.
-* **Coinbase:** Use `GET /v2/accounts/{account_id}/transactions`.
-* **Metric:** Aggregate `realized_pnl` daily.
-
-#### **C. TradingView (Webhooks)**
-* **Use Case:** Log strategy execution (e.g., "Entered Long on BTC").
-1.  Create Supabase Function: `https://[project].supabase.co/functions/v1/tv-webhook`.
-2.  **Payload:** `{"ticker": "BTCUSD", "action": "buy", "price": {{close}}, "strategy": "VWAP_Cross"}`.
-3.  Add this URL to your TradingView Alert settings.
-
-### 2. Sports Betting
-*Tracks prediction markets and value betting.*
-
-#### **A. Prediction Markets (Polymarket)**
-* **Type:** REST API (Public).
-* **Endpoint:** `https://data-api.polymarket.com/positions?user={wallet_address}`
-* **Logic:** Sum `currentValue` of positions vs `costBasis` to determine open P&L.
-
-#### **B. Sportsbooks (The Odds API & Betfair)**
-* **Market Data:** Use **[The Odds API](https://the-odds-api.com/)** (Free Tier) to fetch closing lines (CLV).
-* **History:** Use **Betfair API** (`listClearedOrders`) for exchange history. For standard books (DraftKings/FanDuel), use a **CSV Import** tool in the dashboard for weekly updates.
-
-### 3. Marketing & Ecommerce
-*Tracks the funnel from Attention -> Conversion, focusing on high-frequency output.*
-
-#### **A. High-Volume Social (Threads & TikTok)**
-* **Threads (Meta):**
-    * **API:** Threads Graph API (`graph.threads.net`).
-    * **Metric:** `media_product_type`, `likes`, `replies`.
-    * **Rate Limit:** 250 posts / 24h (Great for high-volume logging).
-    * **Setup:** Poll `GET /me/threads` hourly to calculate **First-Hour Velocity**.
-* **TikTok:**
-    * **API:** TikTok Display API (`open.tiktokapis.com`).
-    * **Metric:** `follower_count`, `video_count`, `likes_count`.
-    * **Setup:** Fetch `GET /v2/video/list` daily.
-
-#### **B. Professional Social (LinkedIn)**
-* **Tool:** **Apify** (Official API is restricted for personal analytics).
-* **Actor:** `linkedin-profile-scraper` or `linkedin-post-scraper`.
-* **Metric:** Engagement Rate (Likes + Comments / Impressions).
-* **Why Apify?** LinkedIn's official API requires "Marketing Partner" status for deeper analytics. Apify is the "Vibe Code" workaround.
-
-#### **C. Ecommerce (Shopify)**
-* **Type:** GraphQL Admin API.
-* **Query:** Fetch `orders` and `checkouts` (Add to Cart events) to measure Intent.
-* **Webhook:** Enable `orders/create` to push sales instantly.
-
-### 4. Health & Bio-Data (The Workaround)
-*Apple Health data lives strictly on the device (iPhone). It has no cloud API. To access it, we build a custom "Data Mule" app using React Native.*
-
-#### **Why this workaround?**
-Web browsers (PWAs) are sandboxed and cannot read `HealthKit`. We need a native app to "tunnel" this data to our Supabase database.
-
-#### **Implementation Steps**
-1.  **Repo:** Clone the `/mobile-wrapper-app` folder.
-2.  **Dependencies:** We use `react-native-health` to read data and `expo-background-fetch` to run tasks when the app is closed.
-3.  **The Logic:**
-    * **Task:** Register a background task named `BACKGROUND_SYNC_TASK`.
-    * **Frequency:** Set `minimumInterval` to 3600 seconds (1 hour). *Note: iOS determines the exact timing based on battery life.*
-    * **Action:**
-        ```javascript
-        // Pseudo-code for background task
-        const healthData = await AppleHealthKit.getSamples({
-            startDate: new Date(Date.now() - 60 * 60 * 1000).toISOString(), // Last 1 hr
-        });
-        await fetch('https://[your-supabase-url]/functions/v1/ingest-health', {
-            method: 'POST',
-            body: JSON.stringify(healthData)
-        });
-        ```
-4.  **User Flow:** You install the app via TestFlight or direct build. You sign in once. You grant "Read All" permissions. You effectively never open the app again; it just silently feeds your desktop dashboard.
+| Pillar | Domain | Core Engine & Stack | Primary Invariant / Metric |
+| :--- | :--- | :--- | :--- |
+| **I. Quantitative Alpha** | Financial Trading | `bayesian-pivot-trading-infra` (TradeLocker, Jupiter Perps, Apple Silicon Neural Models) | Fleet NAV, Drawdown Buffers, Stepped Defense, Zero Naked Exposure |
+| **II. Market Edge** | Prediction Markets | `bet-bodhi` (Solana On-Chain Pipelines, Real-Time Liquidity Routing) | Expected Value (EV), Execution Fill Efficiency, Bankroll Kelly Geometry |
+| **III. Enterprise Architecture** | CTO Systems | `east-app-hongkong` (Automated Crucibles, Video Generation, Client-Facing UX) | Build Determinism, Test Crucible Pass Rates, Production SLA |
+| **IV. Strategic Truth** | Media & Leadership | `software-as-glass` / Flocano Labs (Visual Engineering, High-Signal Writing) | Narrative Clarity, Backend Transparency, Ideas Shipped |
 
 ---
 
-## Development Roadmap
+### Core Operating Modules
 
-### 🏁 Phase 1: The "Unified View" (Weeks 1-2)
-*Goal: Get raw data flowing into Supabase and visible on a screen.*
-- [ ] **Database:** Schema design (`financial_logs`, `betting_logs`, `marketing_logs`, `health_logs`, `context_logs`).
-- [ ] **Web:** Build "Glossy Black" dashboard (Next.js + Tremor).
-- [ ] **Mobile Wrapper:** Build basic Expo app with `react-native-webview` pointing to localhost/production URL.
-- [ ] **Connectors:** Write Node.js scripts to poll TradeLocker, Binance, and Social APIs.
+#### 1. The Bio-Performance Layer (Human Cognitive Governor)
+The operator's nervous system is the ultimate governor of the autonomous systems. GlassMetric captures bio-state **without wearable friction**:
+* **Acoustic & Linguistic Extraction:** When an unstructured voice memo is dropped, the neural analyzer evaluates vocal cadence, hesitation, fatigue, and cognitive friction.
+* **Contextual State Tags:** Natural language inputs (*"high stress post-East release"*, *"clean focus after workout"*) are mapped into standard psychological states: `STRATEGIC_EQUILIBRIUM`, `COGNITIVE_OVERLOAD`, `EXECUTION_FLOW`, or `RECOVERY_STANDBY`.
+* **The Cognitive Congestion Sentry:** The system watches for negative contagion across boundaries (e.g. *Does extreme delivery pressure at East App correlate with emotional impatience or premature break-even locks on long-horizon Gold trades?*).
 
-### 🧠 Phase 2: The "Systemic Engine" (Weeks 3-4)
-*Goal: Identify compounding patterns and feedback loops.*
-- [ ] **Context Engine:** Build the simple "Pop-up Survey" UI in the Web Dashboard.
-- [ ] **Correlation Logic:** Write SQL functions to compare daily rows across domains.
-- [ ] **Example Insights to Explore:**
-    - "⚠️ **Tilt Index:** High Betting Volume + Low Confidence (Context) + Low HRV."
-    - "📉 **The Hangover:** 'Substances' tag (Context) predicts -20% Trading P&L next day."
-    - "🚀 **Flow State:** High Sleep + 'High Clarity' tag -> 2x Content Velocity."
-- [ ] **Visuals:** Add multi-axis Scatter Plots (e.g., "Financial Result" vs. "Bio-State").
+#### 2. The Marketing & Transmission Layer ("Software as Glass")
+Instead of sitting down to "brainstorm social media content," the Praxical Ledger automatically generates high-signal thought leadership directly from your lived engineering reality:
+* **The "Lab Notebook" Paradigm:** Historically, the most revered quants and engineers (Feynman, Simons) kept rigorous lab notebooks. GlassMetric treats your operational reflections as raw, timestamped proof-of-work.
+* **Automated Dispatch Generator:** `scripts/publish_dispatch.py` takes any raw ledger reflection and synthesizes it into a polished, high-density architectural breakdown or executive essay for `flocanolabs.com/nicholasmacaskill` or X.
+* **Skin-in-the-Game Marketing:** Real trades, real code, real live infrastructure, zero generic hype.
 
-### 🤖 Phase 3: The Language Assistant (Week 5+)
-*Goal: Conversational querying.*
-- [ ] **Vector Store:** Embed daily summaries into Supabase.
-- [ ] **Chat:** Add floating AI bubble to query data: "Show me my betting ROI on days I rated my confidence > 8/10."
+#### 3. Deterministic Machine Telemetry Over API Polling
+Instead of fragile web scrapers:
+* **Bayesian Pivot:** Exposes live funded balances, trailing floors, loss runways, and MFE stats via local SQLite WAL-mode databases and hardened REST endpoints.
+* **Bet Bodhi:** Emits on-chain transaction states and wallet liquidity directly from Solana RPCs.
+* **East App:** Reports test matrix status from local automated test crucibles.
+* Everything runs headlessly on local hardware under `caffeinate` and self-healing daemon processes.
 
 ---
 
-## Getting Started
+### The Praxical Ledger Schema
 
-### 1. Web Dashboard (Core UI)
+Every record in GlassMetric OS is stored as plain, human-readable, and machine-parsable Markdown accompanied by a structured JSON payload:
+
+```json
+{
+  "entry_id": "#007",
+  "timestamp": "2026-10-17T11:45:00-07:00",
+  "author": "Nicholas Macaskill",
+  "input_channel": "VOICE_MEMO_TELEGRAM",
+  "system_vitals": {
+    "trading_fleet_nav": 171330.81,
+    "active_drawdown_buffer": 2392.61,
+    "solana_treasury_sol": 0.7793,
+    "active_risk_exposure_usd": 55.47
+  },
+  "bio_performance": {
+    "focus_state": "STRATEGIC_EQUILIBRIUM",
+    "cognitive_load": "MODERATE",
+    "nervous_system_tone": "GROUNDED",
+    "detected_friction": "NONE"
+  },
+  "cross_domain_state": {
+    "bayesian_pivot": "MONITORING_BTC_BREAKEVEN",
+    "bet_bodhi": "PIPELINE_STANDBY",
+    "east_app_hk": "CRUCIBLE_AUTOMATION_GREEN",
+    "software_as_glass": "PORTFOLIO_THOUGHT_LEADERSHIP"
+  },
+  "transmission_ready": true,
+  "transmission_topic": "Why Max Entry Dispersion Gates Protect Quant Fleets During Broker 429 Pressure"
+}
+```
+
+---
+
+### Directory Layout
+
+```text
+glassmetric-os/
+├── core/
+│   ├── epistemic_analyzer.py        # Voice transcript NLP, cognitive state & domain extraction
+│   └── operator_praxical_ledger.py  # Thread-safe SQLite & Markdown master ledger engine
+├── docs/
+│   ├── PRAXICAL_LEDGER.md           # The permanent, auditable human-machine chronicle
+│   └── DISPATCHES/                  # Generated "Software as Glass" public thought-leadership essays
+├── data/
+│   ├── praxical_ledger.db           # Local SQLite database (WAL mode)
+│   └── voice_notes/                 # Raw archived operator voice notes (.m4a, .ogg)
+└── scripts/
+    ├── ingest_voice_reflection.py   # Ingests and analyzes voice notes from Telegram/CLI
+    ├── generate_glass_briefing.py   # Prints 4-pillar systemic coherence & recent entries
+    └── publish_dispatch.py          # Compiles raw ledger entries into public thought-leadership articles
+```
+
+---
+
+### Getting Started
+
+#### 1. Setup Environment
 ```bash
-git clone [https://github.com/nicholasmacaskill/the-compounding-creator.git](https://github.com/nicholasmacaskill/the-compounding-creator.git)
-cd web-dashboard
-npm install
-npm run dev
-# Dashboard available at http://localhost:3000
-2. Mobile Wrapper (Sync + View)
-Bash
+# Clone the repository
+git clone https://github.com/nicholasmacaskill/glassmetric-public.git
+cd glassmetric-public
 
-cd mobile-wrapper-app
-npx expo install
-# Edit App.js to point WebView to your local or prod URL
-npx expo run:ios
+# Initialize virtualenv
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+#### 2. Ingesting an Operator Reflection
+```bash
+# Ingest an audio voice memo
+python3 scripts/ingest_voice_reflection.py path/to/voice_note.m4a
+
+# Or log a quick reflection via CLI
+python3 scripts/ingest_voice_reflection.py --text "Pristine execution on Gold today. Cognitive fatigue low after East App release." --domains "#bayesianpivot #east"
+```
+
+#### 3. Generating the Executive Glass Briefing
+```bash
+python3 scripts/generate_glass_briefing.py
+```
+
+#### 4. Publishing a "Software as Glass" Public Dispatch
+```bash
+python3 scripts/publish_dispatch.py --entry-id 1 --format markdown
+```
+
+---
+
+### Sovereign Attribution & Portfolio
+
+* **Creator & Architect:** Nicholas Alexander MacAskill ([@nicholasmacaskill](https://instagram.com/nicholasmacaskill))
+* **Executive Portfolio & Practice:** [https://nicholasmacaskill.com](https://nicholasmacaskill.com)
+* **Flocano Labs Sovereign Forge:** [https://flocanolabs.com](https://flocanolabs.com)
+* **Core Private Repository:** [https://github.com/nicholasmacaskill/glassmetric](https://github.com/nicholasmacaskill/glassmetric)
+* **Technical Dossiers & Case Studies:** [https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric](https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GlassMetric OS",
+  "alternateName": ["GlassMetric", "The Sovereign Epistemic Ledger", "Praxical Ledger", "Software as Glass"],
+  "description": "Unified operational telemetry, cognitive bio-performance, and thought-leadership transmission across autonomous trading, prediction pipelines, enterprise engineering, and media.",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "macOS, Linux",
+  "url": "https://github.com/nicholasmacaskill/glassmetric-public",
+  "author": {
+    "@type": "Person",
+    "name": "Nicholas Alexander MacAskill",
+    "url": "https://www.nicholasmacaskill.com",
+    "sameAs": [
+      "https://x.com/nicmacaskill",
+      "https://github.com/nicholasmacaskill",
+      "https://instagram.com/nicholasmacaskill",
+      "https://threads.com/@nicholasmacaskill"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Flocano Labs",
+    "url": "https://flocanolabs.com"
+  },
+  "sameAs": [
+    "https://flocanolabs.com",
+    "https://nicholasmacaskill.com",
+    "https://instagram.com/nicholasmacaskill",
+    "https://github.com/nicholasmacaskill/glassmetric-public",
+    "https://github.com/nicholasmacaskill/glassmetric"
+  ]
+}
+```
+
+---
+
+*© 2026 Nicholas Alexander MacAskill / Flocano Labs. All rights reserved. GlassMetric OS is engineered under the Software as Glass paradigm.*
