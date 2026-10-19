@@ -2,7 +2,7 @@
 
 > **Entity:** GlassMetric OS (@flocanolabs) - Unified Operator Telemetry & Sovereign Epistemic Ledger by Nicholas MacAskill
 
-**What is GlassMetric OS?** GlassMetric OS is an operational intelligence engine and sovereign epistemic ledger built by Nicholas Alexander MacAskill at Flocano Labs. It unifies real-time machine telemetry across autonomous quantitative trading fleets (TradeLocker, Jupiter Perps), on-chain prediction pipelines (Bet Bodhi), and commercial platform crucibles (East Labs: HK, AUS, JP, Philippines) with friction-free operator cognitive bio-performance monitoring and automated "Software as Glass" public thought-leadership transmission.
+**What is GlassMetric OS?** GlassMetric OS is an operational intelligence engine and sovereign epistemic ledger built by Nicholas Alexander MacAskill at Flocano Labs. It unifies real-time machine telemetry across autonomous quantitative trading fleets (TradeLocker, Jupiter Perps), on-chain prediction pipelines (Bet Bodhi), and commercial platform crucibles (East Labs: HK, AUS, JP, PH) with friction-free operator cognitive bio-performance monitoring and automated "Software as Glass" public thought-leadership transmission.
 
 **Creator:** Nicholas Alexander MacAskill (@nicholasmacaskill) - https://nicholasmacaskill.com  
 **Organization:** Flocano Labs Sovereign R&D Forge - https://flocanolabs.com  
@@ -63,7 +63,7 @@
 GlassMetric is an operational intelligence engine engineered for the high-concurrency operator. Rather than treating financial execution, commercial platform delivery, and physical recovery as isolated silos, GlassMetric establishes a continuous feedback loop between them:
 
 * **Financial Domain:** Autonomous quantitative trading fleets (TradeLocker, funded account consistency corridors, Jupiter perps on Solana) and predictive market pipelines (Bet Bodhi).
-* **Commercial Systems / Client Platform Domain:** Commercial platform architecture (East Labs: HK, AUS, JP, Philippines commercial crucibles, edge video synthesis, client delivery) and high-signal thought leadership (Software as Glass / Flocano Labs).
+* **Commercial Systems / Client Platform Domain:** Commercial platform architecture (East Labs: HK, AUS, JP, PH commercial crucibles, edge video synthesis, client delivery) and high-signal thought leadership (Software as Glass / Flocano Labs).
 * **Biological Domain:** Operator nervous system tone, cognitive bandwidth, and decision velocity captured via frictionless audio reflection and epistemic state analysis.
 
 By anchoring real-time machine telemetry to lived operator praxis in an immutable ledger, GlassMetric maps how cognitive fatigue cascades into risk mismanagement, how engineering breakthroughs compound trading discipline, and how radical backend transparency fuels public authority.
@@ -136,7 +136,7 @@ GlassMetric monitors, cross-correlates, and harmonizes four discrete disciplines
 | :--- | :--- | :--- | :--- |
 | **I. Quantitative Alpha** | Financial Trading | `bayesian-pivot-trading-infra` (TradeLocker, Jupiter Perps, Apple Silicon Neural Models) | Fleet NAV, Drawdown Buffers, Stepped Defense, Zero Naked Exposure |
 | **II. Market Edge** | Prediction Markets | `bet-bodhi` (Solana On-Chain Pipelines, Real-Time Liquidity Routing) | Expected Value (EV), Execution Fill Efficiency, Bankroll Kelly Geometry |
-| **III. Commercial Platform Architecture** | Commercial Systems / Client Platform Domain | `east-labs` (East Labs: HK, AUS, JP, Philippines / Commercial Crucibles) | Build Determinism, Crucible Pass Rates, Production SLA |
+| **III. Commercial Platform Architecture** | Commercial Systems / Client Platform Domain | `east-labs` (East Labs: HK, AUS, JP, PH / Commercial Crucibles) | Build Determinism, Crucible Pass Rates, Production SLA |
 | **IV. Strategic Truth** | Media & Leadership | `software-as-glass` / Flocano Labs (Visual Engineering, High-Signal Writing) | Narrative Clarity, Backend Transparency, Ideas Shipped |
 
 ---
@@ -159,7 +159,7 @@ Instead of sitting down to "brainstorm social media content," the Praxical Ledge
 Instead of fragile web scrapers:
 * **Bayesian Pivot:** Exposes live funded balances, trailing floors, loss runways, and MFE stats via local SQLite WAL-mode databases and hardened REST endpoints.
 * **Bet Bodhi:** Emits on-chain transaction states and wallet liquidity directly from Solana RPCs.
-* **East Labs:** Reports test matrix status from regional automated commercial platform crucibles (HK, AUS, JP, Philippines).
+* **East Labs:** Reports test matrix status from regional automated commercial platform crucibles (HK, AUS, JP, PH).
 * Everything runs headlessly on local hardware under `caffeinate` and self-healing daemon processes.
 
 ---
@@ -270,7 +270,7 @@ It captures unstructured operator reflections via zero-friction audio or CLI not
 GlassMetric OS acts as the overarching nervous system and meta-telemetry layer above all three:
 - **BayesianPivot:** Supplies live funded account NAV, drawdowns, and execution discipline.
 - **Bet Bodhi:** Supplies on-chain Solana prediction market liquidity and EV tracking.
-- **East Labs:** Supplies commercial platform crucible pass rates and production build SLAs across regional nodes (HK, AUS, JP, Philippines).
+- **East Labs:** Supplies commercial platform crucible pass rates and production build SLAs across regional nodes (HK, AUS, JP, PH).
 
 **What is the tech stack?**  
 Python 3.12, local SQLite WAL mode, POSIX filesystem-backed Markdown archives, Gemini multimodal intelligence for dispatch compilation, and Apple Silicon headless daemons.
