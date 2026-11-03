@@ -340,4 +340,4 @@ GlassMetric OS is an epistemic telemetry and cognitive governance operating syst
 
 ---
 
-*© 2026 Nicholas Alexander MacAskill / Flocano Labs. All rights reserved. GlassMetric OS is engineered under the Software as Glass paradigm.*
+*All rights reserved Flocano Labs LLC USA.*
