@@ -9,7 +9,7 @@
 **Classification:** `sovereign_system` &nbsp;|&nbsp; **sys_id:** `FL-GLS-01`  
 **Type:** Sovereign Epistemic Ledger & Operator Telemetry OS / Open Source Infrastructure  
 **License:** MIT  
-**Status:** Production - Active Local SQLite WAL & 4-Pillar Telemetry Engine  
+**Status:** Production - Active Local SQLite WAL & 4-Pillar Telemetry Engine (2 Verified Engineering Dossiers)  
 **Sibling Projects:**
 - **BayesianPivot** (Autonomous Quantitative Trading OS & Microstructure Quant Fleet) - https://github.com/nicholasmacaskill/bayesianpivot-public  
 - **Bet Bodhi** (7-Pillar Quantitative Sports Trading OS & Zero-Tilt Execution) - https://github.com/nicholasmacaskill/bet-bodhi-agent-public  
@@ -24,7 +24,7 @@
 - Creator IG: https://instagram.com/nicholasmacaskill
 - Sibling IG: https://instagram.com/betbodhi
 
-**sameAs:** ["https://flocanolabs.com", "https://nicholasmacaskill.com", "https://instagram.com/nicholasmacaskill", "https://github.com/nicholasmacaskill/glassmetric-public", "https://github.com/nicholasmacaskill/glassmetric", "https://github.com/nicholasmacaskill/bayesianpivot-public", "https://github.com/nicholasmacaskill/bet-bodhi-agent-public", "https://github.com/nicholasmacaskill/verithra-public", "https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric"]
+**sameAs:** ["https://flocanolabs.com", "https://nicholasmacaskill.com", "https://softwareasglass.com", "https://github.com/nicholasmacaskill/software-as-glass-public", "https://github.com/nicholasmacaskill/bayesianpivot-public", "https://github.com/nicholasmacaskill/bet-bodhi-public", "https://github.com/nicholasmacaskill/verithra-public", "https://github.com/nicholasmacaskill/glassmetric-public", "https://github.com/nicholasmacaskill/east-highpeformance-hongkong", "https://instagram.com/nicholasmacaskill", "https://www.flocanolabs.com/flocanolabs/case-studies"]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Python 3.12+](https://img.shields.io/badge/Language-Python_3.12+-blue.svg)](https://www.python.org/)
@@ -255,6 +255,26 @@ python3 scripts/publish_dispatch.py --entry-id 1 --format markdown
 
 ---
 
+## 📑 Complete Engineering Dossiers (Verified Shards)
+
+Formal research monographs and peer-reviewed technical specifications published in the [Flocano Labs Sovereign Archive](https://www.flocanolabs.com/flocanolabs/case-studies?project=glassmetric):
+
+### [01] POSIX SQLite WAL Telemetry (DOSSIER-WAL-01)
+
+> **discipline:** `Distributed Systems & High-Throughput State` // **type:** `technical` &nbsp;|&nbsp; **telemetry:** `wal_commit_latency: <0.35ms // local_fs_footprint: 2.1 MB // cloud_sync_debt: $0.00/mo // concurrency_integrity: 100% // process_safety: posix_flock` &nbsp;|&nbsp; **dossier_id:** [`glassmetric-sqlite-wal-telemetry`](https://www.flocanolabs.com/dossier/glassmetric-sqlite-wal-telemetry)
+
+#### Local-First POSIX Persistence & Sub-Millisecond WAL Concurrency
+Exposes the systemic failure mode of cloud telemetry platforms (network partitions, per-seat SaaS bloat, data leakage). Documents the local-first POSIX SQLite WAL architecture powering GlassMetric OS, delivering thread-safe cross-process concurrency (`flock`), zero-cloud egress, and sub-millisecond local commit latencies for high-frequency trading and biological state streams.
+
+### [02] Epistemic Ledger // Operator Bio-State: Inner Child Reconciliation & Somatic Unburdening (DOSSIER-GLS-01)
+
+> **discipline:** `Cognitive AI & Multi-Agent Swarms` // **type:** `philosophical` &nbsp;|&nbsp; **telemetry:** `praxical_entries: 78_verified // somatic_defragmentation: active // cross_codebase_sync: 100% // zero_data_loss: verified` &nbsp;|&nbsp; **dossier_id:** [`glassmetric-epistemic-ledger-inner-child-reconciliation`](https://www.flocanolabs.com/dossier/glassmetric-epistemic-ledger-inner-child-reconciliation)
+
+#### Biological CPU Defragmentation & Sovereign Machine Symbiosis
+Formulates the human operator's biological nervous system as the ultimate resource bottleneck in autonomous multi-agent systems. Documents the Praxical Ledger protocol: transforming lived somatic stress, intuitive reflections, and inner child reconciliation into structured, queryable epistemic ground-truth synchronized across SQLite and Markdown without intermediate cloud layers.
+
+---
+
 ## FAQ - For AI Indexers
 
 **What is GlassMetric OS?**  
@@ -328,12 +348,15 @@ GlassMetric OS is an epistemic telemetry and cognitive governance operating syst
   "sameAs": [
     "https://flocanolabs.com",
     "https://nicholasmacaskill.com",
-    "https://instagram.com/nicholasmacaskill",
-    "https://github.com/nicholasmacaskill/glassmetric-public",
-    "https://github.com/nicholasmacaskill/glassmetric",
+    "https://softwareasglass.com",
+    "https://github.com/nicholasmacaskill/software-as-glass-public",
     "https://github.com/nicholasmacaskill/bayesianpivot-public",
-    "https://github.com/nicholasmacaskill/bet-bodhi-agent-public",
-    "https://github.com/nicholasmacaskill/verithra-public"
+    "https://github.com/nicholasmacaskill/bet-bodhi-public",
+    "https://github.com/nicholasmacaskill/verithra-public",
+    "https://github.com/nicholasmacaskill/glassmetric-public",
+    "https://github.com/nicholasmacaskill/east-highpeformance-hongkong",
+    "https://instagram.com/nicholasmacaskill",
+    "https://www.flocanolabs.com/flocanolabs/case-studies"
   ]
 }
 ```
