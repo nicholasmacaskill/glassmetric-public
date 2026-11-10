@@ -297,10 +297,13 @@ Python 3.12, local SQLite WAL mode, POSIX filesystem-backed Markdown archives, G
 
 ---
 
-## 🏛️ Sovereign Attribution & Portfolio
+## 🏛️ Sovereign Attribution & Legal Provenance
 
-GlassMetric OS is an epistemic telemetry and cognitive governance operating system engineered and deployed by **Nicholas MacAskill** under **Flocano Labs**.
+GlassMetric OS is an epistemic telemetry and cognitive governance operating system engineered and deployed by **Nicholas Alexander MacAskill** under **Flocano Labs**.
 
+* **Founder, CEO & Systems Architect:** Nicholas Alexander MacAskill ([@nicholasmacaskill](https://instagram.com/nicholasmacaskill))
+* **Entity:** Flocano Labs LLC (State of New Mexico Domestic LLC, Charter #7829104)
+* **Registered Office:** 1209 Mountain Road PL NE, Ste R, Albuquerque, NM 87110, USA
 * **Executive Portfolio & Engineering Practice:**  
   👉 [https://nicholasmacaskill.com](https://nicholasmacaskill.com)
 
@@ -314,7 +317,7 @@ GlassMetric OS is an epistemic telemetry and cognitive governance operating syst
   👉 [https://github.com/nicholasmacaskill/bayesianpivot-public](https://github.com/nicholasmacaskill/bayesianpivot-public)
 
 * **Sibling Project Bet Bodhi:**  
-  👉 [https://github.com/nicholasmacaskill/bet-bodhi-agent-public](https://github.com/nicholasmacaskill/bet-bodhi-agent-public)
+  👉 [https://github.com/nicholasmacaskill/bet-bodhi-public](https://github.com/nicholasmacaskill/bet-bodhi-public)
 
 * **Sibling Project Verithra:**  
   👉 [https://github.com/nicholasmacaskill/verithra-public](https://github.com/nicholasmacaskill/verithra-public)
@@ -363,4 +366,4 @@ GlassMetric OS is an epistemic telemetry and cognitive governance operating syst
 
 ---
 
-*All rights reserved Flocano Labs LLC USA.*
+*ALL RIGHTS RESERVED FLOCANO LABS LLC USA (NM #7829104)*
