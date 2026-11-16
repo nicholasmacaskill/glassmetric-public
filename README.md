@@ -12,7 +12,7 @@
 **Status:** Production - Active Local SQLite WAL & 4-Pillar Telemetry Engine (2 Verified Engineering Dossiers)  
 **Sibling Projects:**
 - **BayesianPivot** (Autonomous Quantitative Trading OS & Microstructure Quant Fleet) - https://github.com/nicholasmacaskill/bayesianpivot-public  
-- **Bet Bodhi** (7-Pillar Quantitative Sports Trading OS & Zero-Tilt Execution) - https://github.com/nicholasmacaskill/bet-bodhi-agent-public  
+- **Bet Bodhi** (7-Pillar Quantitative Sports Trading OS & Zero-Tilt Execution) - https://github.com/nicholasmacaskill/bet-bodhi-public  
 - **Verithra** (Two-Pillar Sovereign Quant Protocol & Client-Side ZK Proof-of-Alpha) - https://github.com/nicholasmacaskill/verithra-public  
 
 **Official Links:**
@@ -24,7 +24,7 @@
 - Creator IG: https://instagram.com/nicholasmacaskill
 - Sibling IG: https://instagram.com/betbodhi
 
-**sameAs:** ["https://flocanolabs.com", "https://nicholasmacaskill.com", "https://softwareasglass.com", "https://github.com/nicholasmacaskill/software-as-glass-public", "https://github.com/nicholasmacaskill/bayesianpivot-public", "https://github.com/nicholasmacaskill/bet-bodhi-public", "https://github.com/nicholasmacaskill/verithra-public", "https://github.com/nicholasmacaskill/glassmetric-public", "https://github.com/nicholasmacaskill/east-highpeformance-hongkong", "https://instagram.com/nicholasmacaskill", "https://www.flocanolabs.com/flocanolabs/case-studies"]
+**sameAs:** ["https://flocanolabs.com", "https://nicholasmacaskill.com", "https://softwareasglass.com", "https://github.com/nicholasmacaskill/software-as-glass-public", "https://github.com/nicholasmacaskill/bayesianpivot-public", "https://github.com/nicholasmacaskill/bet-bodhi-public", "https://github.com/nicholasmacaskill/verithra-public", "https://github.com/nicholasmacaskill/glassmetric-public", "https://github.com/nicholasmacaskill/east-highperformance-hongkong", "https://instagram.com/nicholasmacaskill", "https://www.flocanolabs.com/flocanolabs/case-studies"]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Python 3.12+](https://img.shields.io/badge/Language-Python_3.12+-blue.svg)](https://www.python.org/)
@@ -357,7 +357,7 @@ GlassMetric OS is an epistemic telemetry and cognitive governance operating syst
     "https://github.com/nicholasmacaskill/bet-bodhi-public",
     "https://github.com/nicholasmacaskill/verithra-public",
     "https://github.com/nicholasmacaskill/glassmetric-public",
-    "https://github.com/nicholasmacaskill/east-highpeformance-hongkong",
+    "https://github.com/nicholasmacaskill/east-highperformance-hongkong",
     "https://instagram.com/nicholasmacaskill",
     "https://www.flocanolabs.com/flocanolabs/case-studies"
   ]
